@@ -27,13 +27,8 @@ SECRET_KEY = os.environ.get("django-insecure-*)va_1tzt)zn7n_9kej_tbsj*v(gg$85nlz
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 
-# ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS', 'localhost'), '127.0.0.1', '.onrender.com']
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS', 'localhost'), '127.0.0.1', '.onrender.com']
 
-CSRF_TRUSTED_ORIGINS = [
-    'breastcancer-production-f422.up.railway.app',
-]
-CSRF_COOKIE_SECURE = False
 
 
 
